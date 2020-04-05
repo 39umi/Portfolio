@@ -111,8 +111,12 @@
     width: 100%;
     height: 100vh;
     opacity: 0;
-    animation-delay: 18s;
+    animation-delay: 16s;
     animation-name: changeMainImageLast;
     animation-duration: 28s;
     animation-iteration-count: infinite;
   }
+
+@media(max-width:1000px){
+
+}
