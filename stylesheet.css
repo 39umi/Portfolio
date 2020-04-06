@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*メインの設定*/
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ footer{
     color:navy;
 }
 
-
+/*aタグの設定*/
 a{
     margin-right:20px;
 }
@@ -26,6 +27,7 @@ a:hover{
     border-bottom: solid 3px #fff;
 }
 
+/*文字サイズと余白*/
 h3{
     font-size: 30px;
     padding-top:50px;
@@ -50,19 +52,18 @@ h4{
     padding-top:20px; 
 }
 
-
+/*スライド上の文字設定*/
 .slide div.text{
     position: absolute;
     width: 100%;
     left: 0; 
-    top: calc(50% - 25px); 
+    top: 45%; 
     text-align: center; 
     color: white; 
     text-shadow: -1px -2px 3px #808080;
     font-weight: bold; 
     font-size: 50px;
     line-height: 50px;
-    margin-top:-40px;
 }
 .link{
     color: #fff;
@@ -70,7 +71,7 @@ h4{
     padding-top:80px;
 }
 
-
+/*各項目の位置設定*/
 .set1{
     width: 100%;
     height: 800px;
@@ -81,7 +82,7 @@ h4{
 }
 .set2{
     width: 100%;
-    height: 900px;
+    height: 1200px;
     margin-top:100px;
     text-align: center; 
     position: relative;
@@ -103,6 +104,8 @@ h4{
     position: relative;
     color:navy;
 }
+
+/*各項目のメイン画像設定*/
 .title{
     padding-top:10px;
     padding-bottom:50px;
@@ -118,6 +121,7 @@ h4{
     padding-bottom:10px;
 }
 
+/*各項目内のリンク設定*/
 .links{
     padding-top: 20px;
     font-size:30px;
@@ -134,7 +138,7 @@ h4{
     color:rgba(77, 80, 162, 0.667);
 }
 
-
+/*ページトップに戻るボタンの設定*/s
 #page_top{
     width: 50px;
     height: 50px;
